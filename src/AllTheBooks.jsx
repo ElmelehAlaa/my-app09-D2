@@ -5,9 +5,9 @@ const AllTheBooks = () => (
   <div className="container">
     <div className="row">
       {Books.map((book, index) => (
-        <div className="col-12 col-md-6 col-lg-4 gy-5 h-100" key={`book-${index}`}>
+        <div className="col-12 col-md-6 col-lg-4 gy-5 " key={`book-${index}`}>
           <Card className="m-auto">
-            <Card.Img style={{ height: "200px", objectFit: "contain" }} variant="top" src={book.img} />
+            <Card.Img style={{ height: "300px", objectFit: "contain" }} variant="top" src={book.img} />
             <Card.Body>
               <Card.Title className="fs-6">{book.title}</Card.Title>
               <Card.Text>{`${book.price}$`}</Card.Text>
