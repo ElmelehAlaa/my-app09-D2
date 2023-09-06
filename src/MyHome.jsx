@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 
-const MyHome = (props) => (
+const MyHome = () => (
   <Container>
     <div className="jumbotron">
       <h1 className="display-4">Welcome on EpiBook!!</h1>
